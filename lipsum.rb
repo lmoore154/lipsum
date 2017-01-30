@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+#This is totally from Stack Overflow. I have no idea what it means, other than a brief description that this is where Ruby is located on
+#my computer.
 
 lipsum_wanted = ARGV[0]
 num = ARGV[1] ? ARGV[1].to_i : 1
