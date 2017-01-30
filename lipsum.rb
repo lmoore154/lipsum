@@ -1,3 +1,6 @@
+#!/Users/rileyle/.rbenv/shims/ruby
+
+
 lipsum_wanted = ARGV[0]
 num = ARGV[1] ? ARGV[1].to_i : 1
 
