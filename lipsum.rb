@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-#This is totally from Stack Overflow. I have no idea what it means, other than a brief description that this is where Ruby is located on
+#This is from Stack Overflow. I have only a vague idea what it means; that this is where Ruby is located on
 #my computer.
 
 lipsum_wanted = ARGV[0]
