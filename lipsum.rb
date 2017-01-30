@@ -20,3 +20,5 @@ end
 num.times do
   puts quote
 end
+
+system("echo \"#{quote}\" | pbcopy") #Thanks for the needed quote marks, David!
