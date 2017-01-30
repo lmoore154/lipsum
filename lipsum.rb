@@ -1,12 +1,17 @@
 lipsum_wanted = ARGV[0]
+num = ARGV[1] ? ARGV[1].to_i : 1
 
-case lipsum_wanted
+quote = case lipsum_wanted
 when "Futurama"
-  puts "Kif, I have mated with a woman. Inform the men."
+   "Kif, I have mated with a woman. Inform the men."
 when "AD"
-  puts "That's why you always leave a note!"
+   "That's why you always leave a note!"
 when "Lorem"
-  puts "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+   "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 else
-  puts "That's not a valid option. Try Futurama, AD, or Lorem!"
+   "That's not a valid option. Try Futurama, AD, or Lorem!"
+end
+
+num.times do
+  puts quote
 end
