@@ -1,4 +1,4 @@
-#!/Users/rileyle/.rbenv/shims/ruby
+#!/usr/bin/env ruby
 
 
 lipsum_wanted = ARGV[0]
